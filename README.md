@@ -1,1 +1,1 @@
-# learning_ruby
+# my first attempts into learning Ruby
