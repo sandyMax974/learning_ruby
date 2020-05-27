@@ -1,9 +1,3 @@
-x = Random.rand(0..10)
-y = Random.rand(0..10)
-
-print "#{x} + #{y} = "
-answer = gets.to_i
-
 start = Time.now
 
 turns = 0
@@ -12,6 +6,13 @@ wrong = 0
 
 while turn < 10
 	turns += 1
+
+	x = Random.rand(0..10)
+	y = Random.rand(0..10)
+
+	print "#{x} + #{y} = "
+	answer = gets.to_i
+
 	if answer ===  (x + y)
 		print "Right!"
 		right += 1
